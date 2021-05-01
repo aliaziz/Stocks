@@ -1,4 +1,6 @@
 # CashAppStocks
+## How to run
+1. Open the project in Xcode, build and run.
 
 ## Architecture 
 ### **The app is split in three layers.** 
@@ -17,6 +19,6 @@ This is an old time favorite and given state that needed to be handled, this hel
 It gave me an option to test events that occured on each `publisher` to better log and assert on results during testing.
 
 ### Trades offs
-1. I traded off mocking for direct requests because of the size of the app and quantity of tests. 
-2. I traded off a much better looking UI for time to be spent creating a more modular and scalable architecture.
+1. I traded off a much better looking UI for time to be spent creating a more modular and scalable architecture.
+2. I traded off mocking for direct requests because of the size of the app and quantity of tests. 
 
