@@ -13,7 +13,7 @@ import RxSwift
     private var repo: StockRepository
     
     init() {
-        repo = DataStockRepository()
+        repo = DataRepo()
         wrappedValue = StockUseCase(repo: repo)
     }
     

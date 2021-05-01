@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_StocksDomainModuleVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_StocksDomainModuleVersionString[];
+FOUNDATION_EXPORT double Pods_StockDomainVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_StockDomainVersionString[];
 

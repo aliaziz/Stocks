@@ -39,9 +39,4 @@ struct APIClient {
             return Disposables.create { task.cancel() }
         }
     }
-    
-    private func decode<T: Codable>(_ data: Data, responseHandler: @escaping (T) -> Void ) {
-        do { responseHandler(try decoder.decode(T.self, from: data)) }
-        catch { print(T.self) }
-    }
 }

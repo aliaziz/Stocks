@@ -1,0 +1,6 @@
+framework module Pods_StockDataTests {
+  umbrella header "Pods-StockDataTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

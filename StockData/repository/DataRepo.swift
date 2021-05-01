@@ -1,15 +1,15 @@
 //
-//  StocksRepository.swift
+//  DataRepo.swift
 //  StocksDataModule
 //
-//  Created by ali ziwa on 30/04/2021.
+//  Created by ali ziwa on 01/05/2021.
 //
 
 import Foundation
 import RxSwift
 
-public struct DataStockRepository: StockRepository {
-    private let remoteDataSource = RemoteDataSource()
+public struct DataRepo: StockRepository {
+    public let remoteDataSource = DataSource()
     
     public init() {}
     public func fetchLatestStocks() -> Single<[Stock]> {

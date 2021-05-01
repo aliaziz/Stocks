@@ -24,18 +24,18 @@ target 'CashAppStocks' do
 
 end
 
-target 'StocksDataModule' do
+target 'StockData' do
   use_frameworks!
   general_pods
   
-  target 'DataTest' do
+  target 'StockDataTests' do
     inherit! :search_paths
     test_pods
   end
   
 end
 
-target 'StocksDomainModule' do
+target 'StockDomain' do
   use_frameworks!
   general_pods
 

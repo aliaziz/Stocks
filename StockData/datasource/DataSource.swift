@@ -1,14 +1,14 @@
 //
-//  RemoteDataSource.swift
+//  DataSource.swift
 //  StocksDataModule
 //
-//  Created by ali ziwa on 30/04/2021.
+//  Created by ali ziwa on 01/05/2021.
 //
 
 import Foundation
 import RxSwift
 
-public struct RemoteDataSource {
+public struct DataSource {
     public init() {}
     public func fetchStocks() -> Single<[Stock]> {
         let url = URL(.fetchStocks)

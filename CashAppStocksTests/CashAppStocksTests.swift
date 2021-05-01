@@ -9,16 +9,16 @@ import XCTest
 import RxTest
 import RxBlocking
 //@testable import CashAppStocks
-@testable import StocksDataModule
+@testable import StockData
 
 class CashAppStocksTests: XCTestCase {
-    private var repository: DataStockRepository?
+    private var repository: DataRepo?
     private let api = APIClient.apiClient
     private var invalidRequestObserver: TestableObserver<Stock>!
     
     override func setUp() {
         super.setUp()
-        repository = DataStockRepository()
+        repository = DataRepo()
         
         let scheduler = TestScheduler(initialClock: 0)
         invalidRequestObserver = scheduler.createObserver(Stock.self)
