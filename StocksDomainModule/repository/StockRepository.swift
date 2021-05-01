@@ -8,6 +8,6 @@
 import Foundation
 import RxSwift
 
-protocol StockRepository {
+public protocol StockRepository {
     func fetchLatestStocks() -> Single<[Stock]>
 }

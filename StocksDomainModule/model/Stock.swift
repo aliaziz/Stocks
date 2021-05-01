@@ -8,7 +8,7 @@
 import Foundation
 
 // MARK: - Stock
-struct Stock: Codable {
+public struct Stock: Codable {
     let ticker, name: String
     let currency: Currency
     let currentPriceCents: Int

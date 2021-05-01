@@ -17,8 +17,6 @@
 		61874053263CCC0500B9CDF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61874052263CCC0500B9CDF0 /* Assets.xcassets */; };
 		61874056263CCC0500B9CDF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61874054263CCC0500B9CDF0 /* LaunchScreen.storyboard */; };
 		61874061263CCC0500B9CDF0 /* CashAppStocksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61874060263CCC0500B9CDF0 /* CashAppStocksTests.swift */; };
-		6187406C263CCC0500B9CDF0 /* CashAppStocksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187406B263CCC0500B9CDF0 /* CashAppStocksUITests.swift */; };
-		61874083263CD4B300B9CDF0 /* StocksDataModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61874082263CD4B300B9CDF0 /* StocksDataModule.swift */; };
 		6187409C263CD5A900B9CDF0 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187409B263CD5A900B9CDF0 /* Stock.swift */; };
 		6187409D263CD5A900B9CDF0 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187409B263CD5A900B9CDF0 /* Stock.swift */; };
 		6187409E263CD5A900B9CDF0 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187409B263CD5A900B9CDF0 /* Stock.swift */; };
@@ -26,18 +24,31 @@
 		618740AF263CD62A00B9CDF0 /* StockUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618740AD263CD62A00B9CDF0 /* StockUseCase.swift */; };
 		618740B0263CD62A00B9CDF0 /* StockUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618740AD263CD62A00B9CDF0 /* StockUseCase.swift */; };
 		618740DA263CD92E00B9CDF0 /* StockRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618740D9263CD92E00B9CDF0 /* StockRepository.swift */; };
+		618740F5263CDE7500B9CDF0 /* DataStockRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618740F4263CDE7500B9CDF0 /* DataStockRepository.swift */; };
+		61874104263CE06100B9CDF0 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61874103263CE06100B9CDF0 /* APIClient.swift */; };
+		6187410C263CE96A00B9CDF0 /* RemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187410B263CE96A00B9CDF0 /* RemoteDataSource.swift */; };
+		6187411F263CEA8A00B9CDF0 /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187411E263CEA8A00B9CDF0 /* APIEndpoint.swift */; };
+		61874125263CEB8300B9CDF0 /* StockRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618740D9263CD92E00B9CDF0 /* StockRepository.swift */; };
+		6187412B263CEB8700B9CDF0 /* StockRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618740D9263CD92E00B9CDF0 /* StockRepository.swift */; };
+		61874132263CEC6500B9CDF0 /* URL+Stocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61874131263CEC6500B9CDF0 /* URL+Stocks.swift */; };
+		61874146263CEF2500B9CDF0 /* DataStockRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618740F4263CDE7500B9CDF0 /* DataStockRepository.swift */; };
+		61874176263CF3F400B9CDF0 /* RemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187410B263CE96A00B9CDF0 /* RemoteDataSource.swift */; };
+		61874196263CF6DF00B9CDF0 /* DataError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61874195263CF6DF00B9CDF0 /* DataError.swift */; };
+		61874284263D023C00B9CDF0 /* CashAppStocksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61874060263CCC0500B9CDF0 /* CashAppStocksTests.swift */; };
+		6187428B263D025500B9CDF0 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187409B263CD5A900B9CDF0 /* Stock.swift */; };
+		618742A2263D038200B9CDF0 /* CashAppStocksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61874060263CCC0500B9CDF0 /* CashAppStocksTests.swift */; };
+		6187430C263D071F00B9CDF0 /* libStocksDataModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61874080263CD4B300B9CDF0 /* libStocksDataModule.a */; };
+		61874315263D07A500B9CDF0 /* StocksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61874314263D07A500B9CDF0 /* StocksViewModel.swift */; };
+		6187431F263D083800B9CDF0 /* UIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187431E263D083800B9CDF0 /* UIState.swift */; };
+		61874325263D088700B9CDF0 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61874324263D088700B9CDF0 /* ViewModel.swift */; };
+		61874349263D133200B9CDF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187404D263CCBF000B9CDF0 /* ViewController.swift */; };
+		6187434E263D137200B9CDF0 /* libStocksDataModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61874080263CD4B300B9CDF0 /* libStocksDataModule.a */; };
+		618743E8263D18BE00B9CDF0 /* DataStockRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618740F4263CDE7500B9CDF0 /* DataStockRepository.swift */; };
 		789F480392EBDE928887A21E /* Pods_StocksDataModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71395CE90CC6C46E7EA86F95 /* Pods_StocksDataModule.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		6187405D263CCC0500B9CDF0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6187403E263CCBF000B9CDF0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 61874045263CCBF000B9CDF0;
-			remoteInfo = CashAppStocks;
-		};
-		61874068263CCC0500B9CDF0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6187403E263CCBF000B9CDF0 /* Project object */;
 			proxyType = 1;
@@ -85,18 +96,26 @@
 		6187405C263CCC0500B9CDF0 /* CashAppStocksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashAppStocksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61874060263CCC0500B9CDF0 /* CashAppStocksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashAppStocksTests.swift; sourceTree = "<group>"; };
 		61874062263CCC0500B9CDF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		61874067263CCC0500B9CDF0 /* CashAppStocksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashAppStocksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6187406B263CCC0500B9CDF0 /* CashAppStocksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashAppStocksUITests.swift; sourceTree = "<group>"; };
-		6187406D263CCC0500B9CDF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61874080263CD4B300B9CDF0 /* libStocksDataModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libStocksDataModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		61874082263CD4B300B9CDF0 /* StocksDataModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksDataModule.swift; sourceTree = "<group>"; };
 		6187408F263CD4E800B9CDF0 /* libStocksDomainModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libStocksDomainModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6187409B263CD5A900B9CDF0 /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
 		618740AD263CD62A00B9CDF0 /* StockUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockUseCase.swift; sourceTree = "<group>"; };
 		618740D9263CD92E00B9CDF0 /* StockRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockRepository.swift; sourceTree = "<group>"; };
+		618740F4263CDE7500B9CDF0 /* DataStockRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStockRepository.swift; sourceTree = "<group>"; };
+		61874103263CE06100B9CDF0 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		6187410B263CE96A00B9CDF0 /* RemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDataSource.swift; sourceTree = "<group>"; };
+		6187411E263CEA8A00B9CDF0 /* APIEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoint.swift; sourceTree = "<group>"; };
+		61874131263CEC6500B9CDF0 /* URL+Stocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Stocks.swift"; sourceTree = "<group>"; };
+		61874195263CF6DF00B9CDF0 /* DataError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataError.swift; sourceTree = "<group>"; };
+		61874314263D07A500B9CDF0 /* StocksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksViewModel.swift; sourceTree = "<group>"; };
+		6187431E263D083800B9CDF0 /* UIState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIState.swift; sourceTree = "<group>"; };
+		61874324263D088700B9CDF0 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		6715E11C51A4A77A2A459D56 /* Pods-StocksDomainModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StocksDomainModule.debug.xcconfig"; path = "Target Support Files/Pods-StocksDomainModule/Pods-StocksDomainModule.debug.xcconfig"; sourceTree = "<group>"; };
 		71395CE90CC6C46E7EA86F95 /* Pods_StocksDataModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StocksDataModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D457DFC5461C866B5381990 /* Pods-DataTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataTest.release.xcconfig"; path = "Target Support Files/Pods-DataTest/Pods-DataTest.release.xcconfig"; sourceTree = "<group>"; };
+		95B41AF3889E9E2163A925A3 /* Pods-DataTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataTest.debug.xcconfig"; path = "Target Support Files/Pods-DataTest/Pods-DataTest.debug.xcconfig"; sourceTree = "<group>"; };
 		9717348B3FE938C13060A89E /* Pods_CashAppStocks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CashAppStocks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D337753561F1CA59C89068D8 /* Pods_DataTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DataTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E037F32C0D9A8A4CC9B71472 /* Pods-CashAppStocksTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashAppStocksTests.debug.xcconfig"; path = "Target Support Files/Pods-CashAppStocksTests/Pods-CashAppStocksTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F074D37A1D445ABA99AAB266 /* Pods-CashAppStocks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashAppStocks.release.xcconfig"; path = "Target Support Files/Pods-CashAppStocks/Pods-CashAppStocks.release.xcconfig"; sourceTree = "<group>"; };
 		F74B756EBD679E3F0F7593B9 /* Pods-StocksDomainModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StocksDomainModule.release.xcconfig"; path = "Target Support Files/Pods-StocksDomainModule/Pods-StocksDomainModule.release.xcconfig"; sourceTree = "<group>"; };
@@ -107,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6187434E263D137200B9CDF0 /* libStocksDataModule.a in Frameworks */,
 				30351A91217E4E1E40491522 /* Pods_CashAppStocks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -115,14 +135,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6187430C263D071F00B9CDF0 /* libStocksDataModule.a in Frameworks */,
 				1AC6CAF3011B1D5BA5204D25 /* Pods_CashAppStocksTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		61874064263CCC0500B9CDF0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +166,7 @@
 				1E3F5603FF8532D9C339AC9F /* Pods_CashAppStocksTests.framework */,
 				71395CE90CC6C46E7EA86F95 /* Pods_StocksDataModule.framework */,
 				21784F8D8A5D0466DBA5DBB5 /* Pods_StocksDomainModule.framework */,
+				D337753561F1CA59C89068D8 /* Pods_DataTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -161,7 +176,6 @@
 			children = (
 				61874048263CCBF000B9CDF0 /* CashAppStocks */,
 				6187405F263CCC0500B9CDF0 /* CashAppStocksTests */,
-				6187406A263CCC0500B9CDF0 /* CashAppStocksUITests */,
 				61874081263CD4B300B9CDF0 /* StocksDataModule */,
 				61874090263CD4E800B9CDF0 /* StocksDomainModule */,
 				61874047263CCBF000B9CDF0 /* Products */,
@@ -175,7 +189,6 @@
 			children = (
 				61874046263CCBF000B9CDF0 /* CashAppStocks.app */,
 				6187405C263CCC0500B9CDF0 /* CashAppStocksTests.xctest */,
-				61874067263CCC0500B9CDF0 /* CashAppStocksUITests.xctest */,
 				61874080263CD4B300B9CDF0 /* libStocksDataModule.a */,
 				6187408F263CD4E800B9CDF0 /* libStocksDomainModule.a */,
 			);
@@ -185,10 +198,11 @@
 		61874048263CCBF000B9CDF0 /* CashAppStocks */ = {
 			isa = PBXGroup;
 			children = (
+				61874313263D078B00B9CDF0 /* view */,
+				61874312263D078300B9CDF0 /* model */,
+				61874311263D077600B9CDF0 /* viewmodel */,
 				61874049263CCBF000B9CDF0 /* AppDelegate.swift */,
 				6187404B263CCBF000B9CDF0 /* SceneDelegate.swift */,
-				6187404D263CCBF000B9CDF0 /* ViewController.swift */,
-				6187404F263CCBF000B9CDF0 /* Main.storyboard */,
 				61874052263CCC0500B9CDF0 /* Assets.xcassets */,
 				61874054263CCC0500B9CDF0 /* LaunchScreen.storyboard */,
 				61874057263CCC0500B9CDF0 /* Info.plist */,
@@ -205,19 +219,13 @@
 			path = CashAppStocksTests;
 			sourceTree = "<group>";
 		};
-		6187406A263CCC0500B9CDF0 /* CashAppStocksUITests */ = {
-			isa = PBXGroup;
-			children = (
-				6187406B263CCC0500B9CDF0 /* CashAppStocksUITests.swift */,
-				6187406D263CCC0500B9CDF0 /* Info.plist */,
-			);
-			path = CashAppStocksUITests;
-			sourceTree = "<group>";
-		};
 		61874081263CD4B300B9CDF0 /* StocksDataModule */ = {
 			isa = PBXGroup;
 			children = (
-				61874082263CD4B300B9CDF0 /* StocksDataModule.swift */,
+				6187410A263CE95700B9CDF0 /* network */,
+				618740FD263CDF1300B9CDF0 /* model */,
+				618740FC263CDF0C00B9CDF0 /* repository */,
+				618740FB263CDF0200B9CDF0 /* datasource */,
 			);
 			path = StocksDataModule;
 			sourceTree = "<group>";
@@ -256,6 +264,66 @@
 			path = repository;
 			sourceTree = "<group>";
 		};
+		618740FB263CDF0200B9CDF0 /* datasource */ = {
+			isa = PBXGroup;
+			children = (
+				6187410B263CE96A00B9CDF0 /* RemoteDataSource.swift */,
+			);
+			path = datasource;
+			sourceTree = "<group>";
+		};
+		618740FC263CDF0C00B9CDF0 /* repository */ = {
+			isa = PBXGroup;
+			children = (
+				618740F4263CDE7500B9CDF0 /* DataStockRepository.swift */,
+			);
+			path = repository;
+			sourceTree = "<group>";
+		};
+		618740FD263CDF1300B9CDF0 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		6187410A263CE95700B9CDF0 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				61874103263CE06100B9CDF0 /* APIClient.swift */,
+				6187411E263CEA8A00B9CDF0 /* APIEndpoint.swift */,
+				61874131263CEC6500B9CDF0 /* URL+Stocks.swift */,
+				61874195263CF6DF00B9CDF0 /* DataError.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		61874311263D077600B9CDF0 /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				61874314263D07A500B9CDF0 /* StocksViewModel.swift */,
+				61874324263D088700B9CDF0 /* ViewModel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		61874312263D078300B9CDF0 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				6187431E263D083800B9CDF0 /* UIState.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		61874313263D078B00B9CDF0 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				6187404F263CCBF000B9CDF0 /* Main.storyboard */,
+				6187404D263CCBF000B9CDF0 /* ViewController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		CB15A1028CC7C6F02BA49421 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -267,6 +335,8 @@
 				2EDB30EAD9D6DFF264EA0C2B /* Pods-StocksDataModule.release.xcconfig */,
 				6715E11C51A4A77A2A459D56 /* Pods-StocksDomainModule.debug.xcconfig */,
 				F74B756EBD679E3F0F7593B9 /* Pods-StocksDomainModule.release.xcconfig */,
+				95B41AF3889E9E2163A925A3 /* Pods-DataTest.debug.xcconfig */,
+				8D457DFC5461C866B5381990 /* Pods-DataTest.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -312,24 +382,6 @@
 			productName = CashAppStocksTests;
 			productReference = 6187405C263CCC0500B9CDF0 /* CashAppStocksTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		61874066263CCC0500B9CDF0 /* CashAppStocksUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 61874076263CCC0500B9CDF0 /* Build configuration list for PBXNativeTarget "CashAppStocksUITests" */;
-			buildPhases = (
-				61874063263CCC0500B9CDF0 /* Sources */,
-				61874064263CCC0500B9CDF0 /* Frameworks */,
-				61874065263CCC0500B9CDF0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				61874069263CCC0500B9CDF0 /* PBXTargetDependency */,
-			);
-			name = CashAppStocksUITests;
-			productName = CashAppStocksUITests;
-			productReference = 61874067263CCC0500B9CDF0 /* CashAppStocksUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		6187407F263CD4B300B9CDF0 /* StocksDataModule */ = {
 			isa = PBXNativeTarget;
@@ -383,10 +435,6 @@
 						CreatedOnToolsVersion = 12.4;
 						TestTargetID = 61874045263CCBF000B9CDF0;
 					};
-					61874066263CCC0500B9CDF0 = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 61874045263CCBF000B9CDF0;
-					};
 					6187407F263CD4B300B9CDF0 = {
 						CreatedOnToolsVersion = 12.4;
 					};
@@ -410,7 +458,6 @@
 			targets = (
 				61874045263CCBF000B9CDF0 /* CashAppStocks */,
 				6187405B263CCC0500B9CDF0 /* CashAppStocksTests */,
-				61874066263CCC0500B9CDF0 /* CashAppStocksUITests */,
 				6187407F263CD4B300B9CDF0 /* StocksDataModule */,
 				6187408E263CD4E800B9CDF0 /* StocksDomainModule */,
 			);
@@ -429,13 +476,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		6187405A263CCC0500B9CDF0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		61874065263CCC0500B9CDF0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -574,11 +614,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61874125263CEB8300B9CDF0 /* StockRepository.swift in Sources */,
+				61874325263D088700B9CDF0 /* ViewModel.swift in Sources */,
 				6187404E263CCBF000B9CDF0 /* ViewController.swift in Sources */,
 				618740AE263CD62A00B9CDF0 /* StockUseCase.swift in Sources */,
 				6187404A263CCBF000B9CDF0 /* AppDelegate.swift in Sources */,
 				6187409C263CD5A900B9CDF0 /* Stock.swift in Sources */,
+				618743E8263D18BE00B9CDF0 /* DataStockRepository.swift in Sources */,
+				61874315263D07A500B9CDF0 /* StocksViewModel.swift in Sources */,
 				6187404C263CCBF000B9CDF0 /* SceneDelegate.swift in Sources */,
+				6187431F263D083800B9CDF0 /* UIState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,15 +631,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6187428B263D025500B9CDF0 /* Stock.swift in Sources */,
 				61874061263CCC0500B9CDF0 /* CashAppStocksTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		61874063263CCC0500B9CDF0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6187406C263CCC0500B9CDF0 /* CashAppStocksUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,9 +640,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61874196263CF6DF00B9CDF0 /* DataError.swift in Sources */,
+				618742A2263D038200B9CDF0 /* CashAppStocksTests.swift in Sources */,
+				6187411F263CEA8A00B9CDF0 /* APIEndpoint.swift in Sources */,
+				618740F5263CDE7500B9CDF0 /* DataStockRepository.swift in Sources */,
+				61874349263D133200B9CDF0 /* ViewController.swift in Sources */,
+				6187410C263CE96A00B9CDF0 /* RemoteDataSource.swift in Sources */,
 				618740AF263CD62A00B9CDF0 /* StockUseCase.swift in Sources */,
+				6187412B263CEB8700B9CDF0 /* StockRepository.swift in Sources */,
 				6187409D263CD5A900B9CDF0 /* Stock.swift in Sources */,
-				61874083263CD4B300B9CDF0 /* StocksDataModule.swift in Sources */,
+				61874132263CEC6500B9CDF0 /* URL+Stocks.swift in Sources */,
+				61874104263CE06100B9CDF0 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -612,7 +658,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61874146263CEF2500B9CDF0 /* DataStockRepository.swift in Sources */,
+				61874176263CF3F400B9CDF0 /* RemoteDataSource.swift in Sources */,
 				6187409E263CD5A900B9CDF0 /* Stock.swift in Sources */,
+				61874284263D023C00B9CDF0 /* CashAppStocksTests.swift in Sources */,
 				618740B0263CD62A00B9CDF0 /* StockUseCase.swift in Sources */,
 				618740DA263CD92E00B9CDF0 /* StockRepository.swift in Sources */,
 			);
@@ -625,11 +674,6 @@
 			isa = PBXTargetDependency;
 			target = 61874045263CCBF000B9CDF0 /* CashAppStocks */;
 			targetProxy = 6187405D263CCC0500B9CDF0 /* PBXContainerItemProxy */;
-		};
-		61874069263CCC0500B9CDF0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 61874045263CCBF000B9CDF0 /* CashAppStocks */;
-			targetProxy = 61874068263CCC0500B9CDF0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -853,44 +897,6 @@
 			};
 			name = Release;
 		};
-		61874077263CCC0500B9CDF0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CashAppStocksUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.stocks.CashAppStocksUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CashAppStocks;
-			};
-			name = Debug;
-		};
-		61874078263CCC0500B9CDF0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CashAppStocksUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.stocks.CashAppStocksUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CashAppStocks;
-			};
-			name = Release;
-		};
 		61874085263CD4B300B9CDF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 395D809AC7694CA281D52C65 /* Pods-StocksDataModule.debug.xcconfig */;
@@ -973,15 +979,6 @@
 			buildConfigurations = (
 				61874074263CCC0500B9CDF0 /* Debug */,
 				61874075263CCC0500B9CDF0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		61874076263CCC0500B9CDF0 /* Build configuration list for PBXNativeTarget "CashAppStocksUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				61874077263CCC0500B9CDF0 /* Debug */,
-				61874078263CCC0500B9CDF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,6 +1,6 @@
 //
-//  CashAppStocksTests.swift
-//  CashAppStocksTests
+//  DataTest.swift
+//  DataTest
 //
 //  Created by ali ziwa on 30/04/2021.
 //
@@ -8,17 +8,18 @@
 import XCTest
 import RxTest
 import RxBlocking
-@testable import CashAppStocks
+
 @testable import StocksDataModule
 
-class CashAppStocksTests: XCTestCase {
-    private var repository: DataStockRepository?
+class DataTest: XCTestCase {
+    
+    private var repository: StocksRepository?
     private let api = APIClient.apiClient
     private var invalidRequestObserver: TestableObserver<Stock>!
     
     override func setUp() {
         super.setUp()
-        repository = DataStockRepository()
+        repository = StocksRepository()
         
         let scheduler = TestScheduler(initialClock: 0)
         invalidRequestObserver = scheduler.createObserver(Stock.self)

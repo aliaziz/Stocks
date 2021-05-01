@@ -8,13 +8,13 @@
 import Foundation
 import RxSwift
 
-struct StockUseCase {
+public struct StockUseCase {
     private let stockRepo: StockRepository
-    init(repo: StockRepository) {
+    public init(repo: StockRepository) {
         self.stockRepo = repo
     }
     
-    func fetchStocks() -> Single<[Stock]> {
+    public func fetchStocks() -> Single<[Stock]> {
         return stockRepo.fetchLatestStocks()
     }
 }
