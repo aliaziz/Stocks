@@ -1,0 +1,6 @@
+framework module Pods_CashAppStocks {
+  umbrella header "Pods-CashAppStocks-umbrella.h"
+
+  export *
+  module * { export * }
+}
