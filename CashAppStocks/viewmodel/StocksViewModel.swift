@@ -19,7 +19,7 @@ import RxSwift
     
 }
 
-struct StocksViewModel: ViewModel {
+public struct StocksViewModel: ViewModel {
     typealias dataType = [Stock]
     
     @Resolver
@@ -27,6 +27,8 @@ struct StocksViewModel: ViewModel {
     private(set) var state = BehaviorSubject<UIState<dataType>>(value: .loading)
     private let disposeBag = DisposeBag()
 
+    public init() {}
+    
     func getStocks(){
         state.onNext(.loading)
         

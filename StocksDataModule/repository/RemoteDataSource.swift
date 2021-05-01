@@ -9,7 +9,7 @@ import Foundation
 import RxSwift
 
 public struct RemoteDataSource {
-    
+    public init() {}
     public func fetchStocks() -> Single<[Stock]> {
         let url = URL(.fetchStocks)
         //URL forcefully unwrapped here. Not expected to fail in this case.

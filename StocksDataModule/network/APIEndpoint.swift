@@ -6,6 +6,6 @@
 //
 
 import Foundation
-enum APIEndpoint: String {
+public enum APIEndpoint: String {
     case fetchStocks = "/portfolio.json"
 }

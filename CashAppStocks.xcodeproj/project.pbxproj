@@ -41,7 +41,6 @@
 		61874315263D07A500B9CDF0 /* StocksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61874314263D07A500B9CDF0 /* StocksViewModel.swift */; };
 		6187431F263D083800B9CDF0 /* UIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187431E263D083800B9CDF0 /* UIState.swift */; };
 		61874325263D088700B9CDF0 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61874324263D088700B9CDF0 /* ViewModel.swift */; };
-		61874349263D133200B9CDF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187404D263CCBF000B9CDF0 /* ViewController.swift */; };
 		6187434E263D137200B9CDF0 /* libStocksDataModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61874080263CD4B300B9CDF0 /* libStocksDataModule.a */; };
 		618743E8263D18BE00B9CDF0 /* DataStockRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618740F4263CDE7500B9CDF0 /* DataStockRepository.swift */; };
 		789F480392EBDE928887A21E /* Pods_StocksDataModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71395CE90CC6C46E7EA86F95 /* Pods_StocksDataModule.framework */; };
@@ -225,7 +224,6 @@
 				6187410A263CE95700B9CDF0 /* network */,
 				618740FD263CDF1300B9CDF0 /* model */,
 				618740FC263CDF0C00B9CDF0 /* repository */,
-				618740FB263CDF0200B9CDF0 /* datasource */,
 			);
 			path = StocksDataModule;
 			sourceTree = "<group>";
@@ -264,17 +262,10 @@
 			path = repository;
 			sourceTree = "<group>";
 		};
-		618740FB263CDF0200B9CDF0 /* datasource */ = {
-			isa = PBXGroup;
-			children = (
-				6187410B263CE96A00B9CDF0 /* RemoteDataSource.swift */,
-			);
-			path = datasource;
-			sourceTree = "<group>";
-		};
 		618740FC263CDF0C00B9CDF0 /* repository */ = {
 			isa = PBXGroup;
 			children = (
+				6187410B263CE96A00B9CDF0 /* RemoteDataSource.swift */,
 				618740F4263CDE7500B9CDF0 /* DataStockRepository.swift */,
 			);
 			path = repository;
@@ -290,8 +281,8 @@
 		6187410A263CE95700B9CDF0 /* network */ = {
 			isa = PBXGroup;
 			children = (
-				61874103263CE06100B9CDF0 /* APIClient.swift */,
 				6187411E263CEA8A00B9CDF0 /* APIEndpoint.swift */,
+				61874103263CE06100B9CDF0 /* APIClient.swift */,
 				61874131263CEC6500B9CDF0 /* URL+Stocks.swift */,
 				61874195263CF6DF00B9CDF0 /* DataError.swift */,
 			);
@@ -644,7 +635,6 @@
 				618742A2263D038200B9CDF0 /* CashAppStocksTests.swift in Sources */,
 				6187411F263CEA8A00B9CDF0 /* APIEndpoint.swift in Sources */,
 				618740F5263CDE7500B9CDF0 /* DataStockRepository.swift in Sources */,
-				61874349263D133200B9CDF0 /* ViewController.swift in Sources */,
 				6187410C263CE96A00B9CDF0 /* RemoteDataSource.swift in Sources */,
 				618740AF263CD62A00B9CDF0 /* StockUseCase.swift in Sources */,
 				6187412B263CEB8700B9CDF0 /* StockRepository.swift in Sources */,

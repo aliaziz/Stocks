@@ -8,7 +8,7 @@
 import XCTest
 import RxTest
 import RxBlocking
-@testable import CashAppStocks
+//@testable import CashAppStocks
 @testable import StocksDataModule
 
 class CashAppStocksTests: XCTestCase {
