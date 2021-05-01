@@ -10,8 +10,6 @@
 		1AC6CAF3011B1D5BA5204D25 /* Pods_CashAppStocksTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E3F5603FF8532D9C339AC9F /* Pods_CashAppStocksTests.framework */; };
 		30351A91217E4E1E40491522 /* Pods_CashAppStocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9717348B3FE938C13060A89E /* Pods_CashAppStocks.framework */; };
 		3CE17D06BDDD93E4014C2F07 /* Pods_StockDomain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71EABA32C4B40CA17B4D319 /* Pods_StockDomain.framework */; };
-		615B0794263D206F0012F341 /* StockData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 615B078B263D206F0012F341 /* StockData.framework */; };
-		615B079B263D20700012F341 /* StockDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B079A263D20700012F341 /* StockDataTests.swift */; };
 		615B079D263D20700012F341 /* StockData.h in Headers */ = {isa = PBXBuildFile; fileRef = 615B078D263D206F0012F341 /* StockData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		615B07A0263D20700012F341 /* StockData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 615B078B263D206F0012F341 /* StockData.framework */; };
 		615B07A1263D20700012F341 /* StockData.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 615B078B263D206F0012F341 /* StockData.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -21,8 +19,6 @@
 		615B0823263D21290012F341 /* URL+Stocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61874131263CEC6500B9CDF0 /* URL+Stocks.swift */; };
 		615B082E263D212D0012F341 /* DataError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61874195263CF6DF00B9CDF0 /* DataError.swift */; };
 		615B083E263D21350012F341 /* DataRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B0725263D1E1D0012F341 /* DataRepo.swift */; };
-		615B0852263D215D0012F341 /* StockDomain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 615B0849263D215C0012F341 /* StockDomain.framework */; };
-		615B0859263D215D0012F341 /* StockDomainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B0858263D215D0012F341 /* StockDomainTests.swift */; };
 		615B085B263D215D0012F341 /* StockDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 615B084B263D215C0012F341 /* StockDomain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		615B085E263D215D0012F341 /* StockDomain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 615B0849263D215C0012F341 /* StockDomain.framework */; };
 		615B085F263D215D0012F341 /* StockDomain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 615B0849263D215C0012F341 /* StockDomain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -30,7 +26,6 @@
 		615B087C263D21730012F341 /* StockRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618740D9263CD92E00B9CDF0 /* StockRepository.swift */; };
 		615B088B263D21790012F341 /* StockUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618740AD263CD62A00B9CDF0 /* StockUseCase.swift */; };
 		615B088C263D217A0012F341 /* StockUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618740AD263CD62A00B9CDF0 /* StockUseCase.swift */; };
-		615B0894263D218A0012F341 /* StockDomainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B0858263D215D0012F341 /* StockDomainTests.swift */; };
 		615B08CD263D22140012F341 /* StocksItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187409B263CD5A900B9CDF0 /* StocksItem.swift */; };
 		615B08D3263D22150012F341 /* StocksItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187409B263CD5A900B9CDF0 /* StocksItem.swift */; };
 		615B0910263D242A0012F341 /* DataError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61874195263CF6DF00B9CDF0 /* DataError.swift */; };
@@ -40,13 +35,10 @@
 		615B093B263D255A0012F341 /* URL+Stocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61874131263CEC6500B9CDF0 /* URL+Stocks.swift */; };
 		615B0941263D25710012F341 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61874103263CE06100B9CDF0 /* APIClient.swift */; };
 		615B0947263D25840012F341 /* DataRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B0725263D1E1D0012F341 /* DataRepo.swift */; };
-		615B0952263D277A0012F341 /* CashAppStocksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61874060263CCC0500B9CDF0 /* CashAppStocksTests.swift */; };
 		615B0964263DDC760012F341 /* Stocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B0963263DDC750012F341 /* Stocks.swift */; };
 		615B096F263DDCCA0012F341 /* Stocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B0963263DDC750012F341 /* Stocks.swift */; };
 		615B0975263DDCCB0012F341 /* Stocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B0963263DDC750012F341 /* Stocks.swift */; };
 		615B097B263DDCD00012F341 /* Stocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B0963263DDC750012F341 /* Stocks.swift */; };
-		615B0981263DDCD10012F341 /* Stocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B0963263DDC750012F341 /* Stocks.swift */; };
-		615B0982263DDCD40012F341 /* Stocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B0963263DDC750012F341 /* Stocks.swift */; };
 		615B098F263DE2800012F341 /* usecaseInject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B098E263DE2800012F341 /* usecaseInject.swift */; };
 		615B099B263DE5B60012F341 /* viewModelInject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B099A263DE5B60012F341 /* viewModelInject.swift */; };
 		615B09A2263DE5F50012F341 /* disposeInject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B09A1263DE5F50012F341 /* disposeInject.swift */; };
@@ -59,12 +51,8 @@
 		615B09E7263DEE680012F341 /* UIStocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B09B4263DE89C0012F341 /* UIStocks.swift */; };
 		615B09ED263DEE6B0012F341 /* UIStockItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B09A8263DE84C0012F341 /* UIStockItem.swift */; };
 		615B0A05263DF61D0012F341 /* StocksTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B0A04263DF61D0012F341 /* StocksTableViewCell.swift */; };
-		615B0A7B263E02E00012F341 /* viewModelInject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B099A263DE5B60012F341 /* viewModelInject.swift */; };
-		615B0A81263E02E20012F341 /* disposeInject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B09A1263DE5F50012F341 /* disposeInject.swift */; };
 		615B0A87263E02E90012F341 /* UIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187431E263D083800B9CDF0 /* UIState.swift */; };
 		615B0A93263E02F30012F341 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61874324263D088700B9CDF0 /* ViewModel.swift */; };
-		615B0A99263E03270012F341 /* CashAppStocksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61874060263CCC0500B9CDF0 /* CashAppStocksTests.swift */; };
-		615B0AD7263E049E0012F341 /* StocksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61874314263D07A500B9CDF0 /* StocksViewModel.swift */; };
 		6187404A263CCBF000B9CDF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61874049263CCBF000B9CDF0 /* AppDelegate.swift */; };
 		6187404C263CCBF000B9CDF0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187404B263CCBF000B9CDF0 /* SceneDelegate.swift */; };
 		6187404E263CCBF000B9CDF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187404D263CCBF000B9CDF0 /* ViewController.swift */; };
@@ -79,45 +67,16 @@
 		61874315263D07A500B9CDF0 /* StocksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61874314263D07A500B9CDF0 /* StocksViewModel.swift */; };
 		6187431F263D083800B9CDF0 /* UIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6187431E263D083800B9CDF0 /* UIState.swift */; };
 		61874325263D088700B9CDF0 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61874324263D088700B9CDF0 /* ViewModel.swift */; };
-		A45B27CD7B29FA79A13D96B8 /* Pods_StockDataTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D36927024E97CB7A17371BEA /* Pods_StockDataTests.framework */; };
 		BA3D2D7FD904C37657E67B93 /* Pods_StockData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3AD002D0F84F88D9EE9FC5 /* Pods_StockData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		615B0795263D206F0012F341 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6187403E263CCBF000B9CDF0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 615B078A263D206F0012F341;
-			remoteInfo = StockData;
-		};
-		615B0797263D20700012F341 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6187403E263CCBF000B9CDF0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 61874045263CCBF000B9CDF0;
-			remoteInfo = CashAppStocks;
-		};
 		615B079E263D20700012F341 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6187403E263CCBF000B9CDF0 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 615B078A263D206F0012F341;
 			remoteInfo = StockData;
-		};
-		615B0853263D215D0012F341 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6187403E263CCBF000B9CDF0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 615B0848263D215C0012F341;
-			remoteInfo = StockDomain;
-		};
-		615B0855263D215D0012F341 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6187403E263CCBF000B9CDF0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 61874045263CCBF000B9CDF0;
-			remoteInfo = CashAppStocks;
 		};
 		615B085C263D215D0012F341 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -159,15 +118,9 @@
 		615B078B263D206F0012F341 /* StockData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StockData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		615B078D263D206F0012F341 /* StockData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StockData.h; sourceTree = "<group>"; };
 		615B078E263D206F0012F341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		615B0793263D206F0012F341 /* StockDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StockDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		615B079A263D20700012F341 /* StockDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDataTests.swift; sourceTree = "<group>"; };
-		615B079C263D20700012F341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		615B0849263D215C0012F341 /* StockDomain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StockDomain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		615B084B263D215C0012F341 /* StockDomain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StockDomain.h; sourceTree = "<group>"; };
 		615B084C263D215C0012F341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		615B0851263D215D0012F341 /* StockDomainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StockDomainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		615B0858263D215D0012F341 /* StockDomainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDomainTests.swift; sourceTree = "<group>"; };
-		615B085A263D215D0012F341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		615B0963263DDC750012F341 /* Stocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stocks.swift; sourceTree = "<group>"; };
 		615B098E263DE2800012F341 /* usecaseInject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usecaseInject.swift; sourceTree = "<group>"; };
 		615B099A263DE5B60012F341 /* viewModelInject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewModelInject.swift; sourceTree = "<group>"; };
@@ -222,28 +175,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		615B0790263D206F0012F341 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				615B0794263D206F0012F341 /* StockData.framework in Frameworks */,
-				A45B27CD7B29FA79A13D96B8 /* Pods_StockDataTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		615B0846263D215C0012F341 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3CE17D06BDDD93E4014C2F07 /* Pods_StockDomain.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		615B084E263D215D0012F341 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				615B0852263D215D0012F341 /* StockDomain.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,15 +237,6 @@
 			path = StockData;
 			sourceTree = "<group>";
 		};
-		615B0799263D20700012F341 /* StockDataTests */ = {
-			isa = PBXGroup;
-			children = (
-				615B079A263D20700012F341 /* StockDataTests.swift */,
-				615B079C263D20700012F341 /* Info.plist */,
-			);
-			path = StockDataTests;
-			sourceTree = "<group>";
-		};
 		615B084A263D215C0012F341 /* StockDomain */ = {
 			isa = PBXGroup;
 			children = (
@@ -320,15 +247,6 @@
 				615B084C263D215C0012F341 /* Info.plist */,
 			);
 			path = StockDomain;
-			sourceTree = "<group>";
-		};
-		615B0857263D215D0012F341 /* StockDomainTests */ = {
-			isa = PBXGroup;
-			children = (
-				615B0858263D215D0012F341 /* StockDomainTests.swift */,
-				615B085A263D215D0012F341 /* Info.plist */,
-			);
-			path = StockDomainTests;
 			sourceTree = "<group>";
 		};
 		615B098D263DE26D0012F341 /* di */ = {
@@ -347,9 +265,7 @@
 				61874048263CCBF000B9CDF0 /* CashAppStocks */,
 				6187405F263CCC0500B9CDF0 /* CashAppStocksTests */,
 				615B078C263D206F0012F341 /* StockData */,
-				615B0799263D20700012F341 /* StockDataTests */,
 				615B084A263D215C0012F341 /* StockDomain */,
-				615B0857263D215D0012F341 /* StockDomainTests */,
 				61874047263CCBF000B9CDF0 /* Products */,
 				CB15A1028CC7C6F02BA49421 /* Pods */,
 				3B90A76EEC1D423C6F52988F /* Frameworks */,
@@ -362,9 +278,7 @@
 				61874046263CCBF000B9CDF0 /* CashAppStocks.app */,
 				6187405C263CCC0500B9CDF0 /* CashAppStocksTests.xctest */,
 				615B078B263D206F0012F341 /* StockData.framework */,
-				615B0793263D206F0012F341 /* StockDataTests.xctest */,
 				615B0849263D215C0012F341 /* StockDomain.framework */,
-				615B0851263D215D0012F341 /* StockDomainTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -527,27 +441,6 @@
 			productReference = 615B078B263D206F0012F341 /* StockData.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		615B0792263D206F0012F341 /* StockDataTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 615B07A6263D20700012F341 /* Build configuration list for PBXNativeTarget "StockDataTests" */;
-			buildPhases = (
-				1835DB0DD5BD372A515A704C /* [CP] Check Pods Manifest.lock */,
-				615B078F263D206F0012F341 /* Sources */,
-				615B0790263D206F0012F341 /* Frameworks */,
-				615B0791263D206F0012F341 /* Resources */,
-				B35E07148EF2F71A187ED8EA /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				615B0796263D206F0012F341 /* PBXTargetDependency */,
-				615B0798263D20700012F341 /* PBXTargetDependency */,
-			);
-			name = StockDataTests;
-			productName = StockDataTests;
-			productReference = 615B0793263D206F0012F341 /* StockDataTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		615B0848263D215C0012F341 /* StockDomain */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 615B0860263D215D0012F341 /* Build configuration list for PBXNativeTarget "StockDomain" */;
@@ -566,25 +459,6 @@
 			productName = StockDomain;
 			productReference = 615B0849263D215C0012F341 /* StockDomain.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		615B0850263D215D0012F341 /* StockDomainTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 615B0863263D215D0012F341 /* Build configuration list for PBXNativeTarget "StockDomainTests" */;
-			buildPhases = (
-				615B084D263D215D0012F341 /* Sources */,
-				615B084E263D215D0012F341 /* Frameworks */,
-				615B084F263D215D0012F341 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				615B0854263D215D0012F341 /* PBXTargetDependency */,
-				615B0856263D215D0012F341 /* PBXTargetDependency */,
-			);
-			name = StockDomainTests;
-			productName = StockDomainTests;
-			productReference = 615B0851263D215D0012F341 /* StockDomainTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		61874045263CCBF000B9CDF0 /* CashAppStocks */ = {
 			isa = PBXNativeTarget;
@@ -640,16 +514,8 @@
 					615B078A263D206F0012F341 = {
 						CreatedOnToolsVersion = 12.4;
 					};
-					615B0792263D206F0012F341 = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 61874045263CCBF000B9CDF0;
-					};
 					615B0848263D215C0012F341 = {
 						CreatedOnToolsVersion = 12.4;
-					};
-					615B0850263D215D0012F341 = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 61874045263CCBF000B9CDF0;
 					};
 					61874045263CCBF000B9CDF0 = {
 						CreatedOnToolsVersion = 12.4;
@@ -676,9 +542,7 @@
 				61874045263CCBF000B9CDF0 /* CashAppStocks */,
 				6187405B263CCC0500B9CDF0 /* CashAppStocksTests */,
 				615B078A263D206F0012F341 /* StockData */,
-				615B0792263D206F0012F341 /* StockDataTests */,
 				615B0848263D215C0012F341 /* StockDomain */,
-				615B0850263D215D0012F341 /* StockDomainTests */,
 			);
 		};
 /* End PBXProject section */
@@ -691,21 +555,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		615B0791263D206F0012F341 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		615B0847263D215C0012F341 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		615B084F263D215D0012F341 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -748,28 +598,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-CashAppStocks-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1835DB0DD5BD372A515A704C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-StockDataTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -837,23 +665,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B35E07148EF2F71A187ED8EA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-StockDataTests/Pods-StockDataTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-StockDataTests/Pods-StockDataTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StockDataTests/Pods-StockDataTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		CE8F679BD25A27785FBFFE04 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -904,7 +715,6 @@
 				615B082E263D212D0012F341 /* DataError.swift in Sources */,
 				615B083E263D21350012F341 /* DataRepo.swift in Sources */,
 				615B088B263D21790012F341 /* StockUseCase.swift in Sources */,
-				615B0952263D277A0012F341 /* CashAppStocksTests.swift in Sources */,
 				615B0823263D21290012F341 /* URL+Stocks.swift in Sources */,
 				615B07B8263D20BB0012F341 /* DataSource.swift in Sources */,
 				615B0812263D21200012F341 /* APIEndpoint.swift in Sources */,
@@ -913,15 +723,6 @@
 				615B0818263D21240012F341 /* APIClient.swift in Sources */,
 				615B096F263DDCCA0012F341 /* Stocks.swift in Sources */,
 				615B08D3263D22150012F341 /* StocksItem.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		615B078F263D206F0012F341 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				615B0981263DDCD10012F341 /* Stocks.swift in Sources */,
-				615B079B263D20700012F341 /* StockDataTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -936,16 +737,6 @@
 				615B08CD263D22140012F341 /* StocksItem.swift in Sources */,
 				615B09C6263DED510012F341 /* UIStockItem.swift in Sources */,
 				615B0964263DDC760012F341 /* Stocks.swift in Sources */,
-				615B0894263D218A0012F341 /* StockDomainTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		615B084D263D215D0012F341 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				615B0982263DDCD40012F341 /* Stocks.swift in Sources */,
-				615B0859263D215D0012F341 /* StockDomainTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -972,7 +763,6 @@
 				615B09A2263DE5F50012F341 /* disposeInject.swift in Sources */,
 				615B092F263D25060012F341 /* APIEndpoint.swift in Sources */,
 				6187409C263CD5A900B9CDF0 /* StocksItem.swift in Sources */,
-				615B0A99263E03270012F341 /* CashAppStocksTests.swift in Sources */,
 				61874315263D07A500B9CDF0 /* StocksViewModel.swift in Sources */,
 				6187404C263CCBF000B9CDF0 /* SceneDelegate.swift in Sources */,
 				6187431F263D083800B9CDF0 /* UIState.swift in Sources */,
@@ -984,11 +774,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6187428B263D025500B9CDF0 /* StocksItem.swift in Sources */,
-				615B0A81263E02E20012F341 /* disposeInject.swift in Sources */,
 				615B0A93263E02F30012F341 /* ViewModel.swift in Sources */,
 				615B097B263DDCD00012F341 /* Stocks.swift in Sources */,
-				615B0A7B263E02E00012F341 /* viewModelInject.swift in Sources */,
-				615B0AD7263E049E0012F341 /* StocksViewModel.swift in Sources */,
 				615B0A87263E02E90012F341 /* UIState.swift in Sources */,
 				615B09E7263DEE680012F341 /* UIStocks.swift in Sources */,
 				615B09ED263DEE6B0012F341 /* UIStockItem.swift in Sources */,
@@ -999,30 +786,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		615B0796263D206F0012F341 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 615B078A263D206F0012F341 /* StockData */;
-			targetProxy = 615B0795263D206F0012F341 /* PBXContainerItemProxy */;
-		};
-		615B0798263D20700012F341 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 61874045263CCBF000B9CDF0 /* CashAppStocks */;
-			targetProxy = 615B0797263D20700012F341 /* PBXContainerItemProxy */;
-		};
 		615B079F263D20700012F341 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 615B078A263D206F0012F341 /* StockData */;
 			targetProxy = 615B079E263D20700012F341 /* PBXContainerItemProxy */;
-		};
-		615B0854263D215D0012F341 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 615B0848263D215C0012F341 /* StockDomain */;
-			targetProxy = 615B0853263D215D0012F341 /* PBXContainerItemProxy */;
-		};
-		615B0856263D215D0012F341 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 61874045263CCBF000B9CDF0 /* CashAppStocks */;
-			targetProxy = 615B0855263D215D0012F341 /* PBXContainerItemProxy */;
 		};
 		615B085D263D215D0012F341 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1112,48 +879,6 @@
 			};
 			name = Release;
 		};
-		615B07A7263D20700012F341 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E230E0E369EEFE518F85FE75 /* Pods-StockDataTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 487Q4488BH;
-				INFOPLIST_FILE = StockDataTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.stocks.StockDataTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CashAppStocks.app/CashAppStocks";
-			};
-			name = Debug;
-		};
-		615B07A8263D20700012F341 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF756868EF13014371ACA0F8 /* Pods-StockDataTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 487Q4488BH;
-				INFOPLIST_FILE = StockDataTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.stocks.StockDataTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CashAppStocks.app/CashAppStocks";
-			};
-			name = Release;
-		};
 		615B0861263D215D0012F341 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 86406D978A9ADC993219DB17 /* Pods-StockDomain.debug.xcconfig */;
@@ -1207,46 +932,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		615B0864263D215D0012F341 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 487Q4488BH;
-				INFOPLIST_FILE = StockDomainTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.stocks.StockDomainTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CashAppStocks.app/CashAppStocks";
-			};
-			name = Debug;
-		};
-		615B0865263D215D0012F341 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 487Q4488BH;
-				INFOPLIST_FILE = StockDomainTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.stocks.StockDomainTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CashAppStocks.app/CashAppStocks";
 			};
 			name = Release;
 		};
@@ -1380,6 +1065,19 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"RxBlocking\"",
+					"-framework",
+					"\"RxCocoa\"",
+					"-framework",
+					"\"RxRelay\"",
+					"-framework",
+					"\"RxSwift\"",
+					"-framework",
+					"\"RxTest\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.stocks.CashAppStocks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -1400,6 +1098,19 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"RxBlocking\"",
+					"-framework",
+					"\"RxCocoa\"",
+					"-framework",
+					"\"RxRelay\"",
+					"-framework",
+					"\"RxSwift\"",
+					"-framework",
+					"\"RxTest\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.stocks.CashAppStocks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1464,29 +1175,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		615B07A6263D20700012F341 /* Build configuration list for PBXNativeTarget "StockDataTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				615B07A7263D20700012F341 /* Debug */,
-				615B07A8263D20700012F341 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		615B0860263D215D0012F341 /* Build configuration list for PBXNativeTarget "StockDomain" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				615B0861263D215D0012F341 /* Debug */,
 				615B0862263D215D0012F341 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		615B0863263D215D0012F341 /* Build configuration list for PBXNativeTarget "StockDomainTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				615B0864263D215D0012F341 /* Debug */,
-				615B0865263D215D0012F341 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

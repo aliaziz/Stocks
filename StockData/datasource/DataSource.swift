@@ -11,7 +11,6 @@ import RxSwift
 public struct DataSource {
     public init() {}
     public func fetchStocks() -> Single<Stocks> {
-        //URL forcefully unwrapped here. Not expected to fail in this case.
         return APIClient.apiClient.request(.fetchStocks)
     }
 }
