@@ -8,12 +8,12 @@
 import Foundation
 
 // MARK: - Stock
-public struct Stock: Codable {
+public struct StocksItem: Codable {
     let ticker, name: String
     let currency: Currency
-    let currentPriceCents: Int
+    let currentPriceCents: Double
     let quantity: Int?
-    let currentPriceTimestamp: Int
+    let currentPriceTimestamp: Double
 
     enum CodingKeys: String, CodingKey {
         case ticker, name, currency

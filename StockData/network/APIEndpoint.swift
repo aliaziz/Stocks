@@ -8,4 +8,6 @@
 import Foundation
 public enum APIEndpoint: String {
     case fetchStocks = "/portfolio.json"
+    case malformed = "/portfolio_malformed.json"
+    case empty = "/portfolio_empty.json"
 }

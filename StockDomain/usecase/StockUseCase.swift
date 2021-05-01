@@ -14,7 +14,7 @@ public struct StockUseCase {
         self.stockRepo = repo
     }
     
-    public func fetchStocks() -> Single<[Stock]> {
+    public func fetchStocks() -> Single<Stocks> {
         return stockRepo.fetchLatestStocks()
     }
 }

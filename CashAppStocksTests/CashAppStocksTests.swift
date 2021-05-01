@@ -14,22 +14,27 @@ import RxBlocking
 class CashAppStocksTests: XCTestCase {
     private var repository: DataRepo?
     private let api = APIClient.apiClient
-    private var invalidRequestObserver: TestableObserver<Stock>!
     
     override func setUp() {
         super.setUp()
         repository = DataRepo()
-        
-        let scheduler = TestScheduler(initialClock: 0)
-        invalidRequestObserver = scheduler.createObserver(Stock.self)
     }
     
     func testInvalidData() {
-        let url = URL(string: "https://storage.googleapis.com/cash-homework/cash-stocks-api/portfolio_malformed.json")
-        _ = api.request(url!)
-            .asObservable()
-            .subscribe(invalidRequestObserver)
-        repository?.fetchLatestStocks().subscribe()
-        print(invalidRequestObserver.events)
+        do {
+            let result: [Stocks] = try api.request(.malformed).toBlocking().toArray()
+            XCTAssertFalse(!result.isEmpty)
+        } catch {
+            XCTAssertTrue(true)
+        }
+    }
+    
+    func testEmptyData() {
+        do {
+            let result: Stocks = try api.request(.empty).toBlocking().first()!
+            XCTAssertTrue(result.stocks.isEmpty)
+        } catch {
+            XCTAssertFalse(false)
+        }
     }
 }

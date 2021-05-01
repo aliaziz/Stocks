@@ -12,7 +12,7 @@ public struct DataRepo: StockRepository {
     public let remoteDataSource = DataSource()
     
     public init() {}
-    public func fetchLatestStocks() -> Single<[Stock]> {
+    public func fetchLatestStocks() -> Single<Stocks> {
         return remoteDataSource.fetchStocks()
     }
 }

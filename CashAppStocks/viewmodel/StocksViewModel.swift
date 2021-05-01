@@ -8,31 +8,21 @@
 import Foundation
 import RxSwift
 
-@propertyWrapper struct Resolver {
-    var wrappedValue: StockUseCase
-    private var repo: StockRepository
-    
-    init() {
-        repo = DataRepo()
-        wrappedValue = StockUseCase(repo: repo)
-    }
-    
-}
-
 public struct StocksViewModel: ViewModel {
-    typealias dataType = [Stock]
+    typealias dataType = UIStocks
     
-    @Resolver
-    private var stockUseCase: StockUseCase
+    @disposeInject private var disposeBag: DisposeBag
+    @usecaseInject private var stockUseCase: StockUseCase
     private(set) var state = BehaviorSubject<UIState<dataType>>(value: .loading)
-    private let disposeBag = DisposeBag()
 
     public init() {}
     
-    func getStocks(){
+    func getStocks() {
         state.onNext(.loading)
         
-        stockUseCase.fetchStocks().subscribe { (response) in
+        stockUseCase.fetchStocks()
+            .map({$0.toUIStock()})
+            .subscribe { (response) in
             state.onNext(.finished(response))
         } onFailure: { (error) in
             state.onError(error)

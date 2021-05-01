@@ -9,5 +9,5 @@ import Foundation
 import RxSwift
 
 public protocol StockRepository {
-    func fetchLatestStocks() -> Single<[Stock]>
+    func fetchLatestStocks() -> Single<Stocks>
 }

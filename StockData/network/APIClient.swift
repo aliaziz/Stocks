@@ -20,9 +20,10 @@ struct APIClient {
         self.decoder = JSONDecoder()
     }
     
-    func request<T: Codable>(_ url: URL) -> Single<T> {
+    func request<T: Codable>(_ endPoint: APIEndpoint = .fetchStocks) -> Single<T> {
+        let url = URL(endPoint)
         return Single<T>.create { (observer) in
-            let task = urlSession.dataTask(with: url) { (data, response, error) in
+            let task = urlSession.dataTask(with: url!) { (data, response, error) in
                 if let _ = error {
                     observer(.failure(DataError.networkError))
                     return

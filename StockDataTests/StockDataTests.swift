@@ -6,27 +6,32 @@
 //
 
 import XCTest
-@testable import StockData
+//@testable import StockData
 
 class StockDataTests: XCTestCase {
-
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    private var repository: DataRepo?
+    private let api = APIClient.apiClient
+    
+    override func setUp() {
+        super.setUp()
+        repository = DataRepo()
     }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    
+    func testInvalidData() {
+        do {
+            let result: [Stocks] = try api.request(.malformed).toBlocking().toArray()
+            XCTAssertFalse(!result.isEmpty)
+        } catch {
+            XCTAssertTrue(true)
+        }
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    
+    func testEmptyData() {
+        do {
+            let result: Stocks = try api.request(.empty).toBlocking().first()!
+            XCTAssertTrue(result.stocks.isEmpty)
+        } catch {
+            XCTAssertFalse(false)
         }
     }
 
