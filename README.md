@@ -1,4 +1,4 @@
-# CashAppStocks
+# Stocks
 ## How to run
 1. Open the project in Xcode, build and run.
 
